@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&family=Source+Sans+Pro:wght@600&display=swap');
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.logodiv {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  text-decoration: none;
+  position: sticky;
+  top: 0;
+}
+
+.logo__img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.site__name {
+  font-size: 1.6rem;
+}
+
+.site__name:nth-child(3) {
+  color: #e53e3e;
+}
+
+@media (max-width: 500px) {
+  .site__name {
+    font-size: 1.4rem;
+  }
+}
